@@ -1,0 +1,73 @@
+.about
+{
+    background-color: rgb(218, 218, 218);
+    margin-top: 30px;
+    width: 100%;
+    height: 60vh;
+    display: grid;
+    grid-template-columns:50% 50%;
+}
+.img
+{
+   padding-top: 50px;
+ 
+}
+.about-1
+{
+    background-color: rgb(16, 56, 16);
+    width: 30%;
+    height: 25vh;
+  
+    transform: translate(135%,20%);
+    border-radius: 5px;
+ 
+}
+.about-3
+{
+    background-color: rgb(119, 39, 15);
+    width: 30%;
+    height: 20vh;
+    border-radius: 5px;
+    transform: translate(170%,20%);
+    z-index: -99;
+}
+.about-2 img
+{
+    width: 20%;
+    height: 40vh;
+    object-fit: cover;
+    position: absolute;
+    transform: translate(110%,-45%);
+    z-index: 99;  
+}
+.about-h
+{
+    color: rgb(231, 109, 72);
+    padding-left: 30px;
+    padding-top: 10%;
+    font-size: 30px;
+}
+.about-p
+{
+    color: black;
+    padding-top: 10%;
+}
+.butt
+{
+    margin-top: 30px;
+    margin-left: 30%;
+}
+.well
+{
+    text-align: center;
+    font-size: 35px;
+    padding-left: 20%;
+   position: absolute;
+}
+.pss
+{
+    position: absolute;
+    transform: rotate(-90deg);
+    margin-top: 22%;
+    margin-left: 40px;
+}

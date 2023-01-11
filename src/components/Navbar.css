@@ -1,0 +1,22 @@
+.nav
+{
+    display: flex;
+  background-color: rgb(255, 255, 255);
+  justify-content: space-between;
+  margin-top: 10px;
+
+ 
+}
+.logo img
+{
+   width: 250px;
+   margin-right: 50px;
+    object-fit: contain;
+}
+.nav ul li{
+    display: inline;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+
+}
